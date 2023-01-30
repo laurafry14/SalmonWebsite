@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map</title>
+  </head>
+  <body>
+    <h2>Where are Atlantic Salmon found?</h2>
+    <p>
+      Click on various places on the map to determine if Atlantic Salmon are
+      found there!
+    </p>
+
+    <img
+      src="https://images.unsplash.com/photo-1578924825042-31d14cf13c35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1239&q=80"
+      alt="Map"
+      usemap="#canadamap"
+      width="800"
+      height="500"
+    />
+
+    <map name="canadamap">
+      <area
+        shape="circle"
+        coords="695,320,40"
+        alt="Newfoundland"
+        href="newfoundland.html"
+      />
+      <area
+        shape="poly"
+        coords="475,190,500,400,525,425,585,400,585,250"
+        alt="Quebec"
+        href="quebec.html"
+      />
+      <area
+        shape="circle"
+        coords="625,380,40"
+        alt="Maritimes"
+        href="maritimes.html"
+      />
+    </map>
+  </body>
+</html>
